@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+            android:id="@+id/llUserName"
+            android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/txtTittleUserName"
+                android:layout_width="wrap_content"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:text="hari"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/llEmailId"
+            android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/txtTittleEmail"
+                android:layout_width="wrap_content"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:text="hari@gmail.com"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
